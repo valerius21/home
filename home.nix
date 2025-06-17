@@ -23,6 +23,9 @@
 				pkgs.neovim
 				pkgs.fzf
 				pkgs.discord
+        pkgs.curl
+        pkgs.git
+        pkgs.wget
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
@@ -52,6 +55,7 @@
     # Removed .gitconfig mapping since dotfiles submodule is gone
     ".gitconfig".source = dotfiles/etc/dot-gitconfig;
     ".config/ghostty".source = dotfiles/etc/dot-config;
+    ".zshrc".source = dotfiles/zsh/dot-zshrc;
 
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
