@@ -33,6 +33,7 @@
         pkgs.lazygit
         pkgs.zoxide
 	pkgs.uv
+	pkgs.glances
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
