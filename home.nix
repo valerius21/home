@@ -18,11 +18,11 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
-				pkgs.cowsay
-				pkgs.brave
-				pkgs.neovim
-				pkgs.fzf
-				pkgs.discord
+	pkgs.cowsay
+	pkgs.brave
+	pkgs.neovim
+	pkgs.fzf
+	pkgs.discord
         pkgs.curl
         pkgs.git
         pkgs.wget
@@ -32,6 +32,7 @@
         pkgs.eza
         pkgs.lazygit
         pkgs.zoxide
+	pkgs.uv
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
